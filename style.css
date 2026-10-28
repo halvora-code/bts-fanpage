@@ -1,5 +1,5 @@
 body {
-    background: pink;
+    background:#F5E6E8;
     color:saddlebrown;
     text-align:center;
     font-family:monospace;
@@ -105,7 +105,7 @@ ul {
     background-color: #A25D72;
 }
 
-.members {
+.members-button {
     color:antiquewhite;
     background-color:#854C5D;
     font-family: monospace;
@@ -118,6 +118,30 @@ ul {
     font-size: 1.20rem;
 }
 
-.members:hover {
+.members-button:hover {
     background-color:#A25D72;
+}
+
+
+/*Below is for the members page*/
+.RM {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.RM img {
+    width:200px;
+    height:auto;
+}
+
+.Jin {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.Jin img {
+    width:200px;
+    height:auto;
 }

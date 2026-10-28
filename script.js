@@ -9,6 +9,7 @@ const currentTimeDisplay = document.querySelector(".current-time");
 const durationDisplay = document.querySelector(".duration");
 const progressBar = document.querySelector(".progress-bar");
 
+
 function formatTime(seconds) {
     const minutes = Math.floor(seconds/60);
     const remainingSeconds = Math.floor(seconds % 60);
@@ -78,4 +79,12 @@ playButton.addEventListener("click", function() {
         audio.pause();
         playButton.textContent = "Play"
     }
+});
+
+/*Below is the code for the members button*/
+
+const membersButton = document.querySelector(".members");
+
+membersButton.addEventListener("click", function () {
+    window.location.href = "members.html";
 });
