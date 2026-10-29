@@ -112,27 +112,32 @@ ul {
 }
 
 .bts1 {
-    margin:0;
     width:400px;
     height:400px;
-    border-radius:50px;
-    border-style: groove, dotted;
-    border-color:darksalmon;
     align-items:center;
-    background:darksalmon;
-    padding:0;
-    border-image-repeat:groove;
     border-width: 15px;
     cursor:grab;
-
+    border-style: groove;
+    border-radius: 15px;
+    border-color:#D6B8C1;
+    border:solid;
 }
 
-.bts1-frame {
-    display: inline-block;
-    padding:20px;
-    background:darksalmon;
-    border: 15px solid ;
-    border-radius: 20px;
+.bts-button {
+    background-color: #B37A8B;
+    color:white;
+    border:none;
+    border-radius:20px;
+    padding:10px 18px;
+    font-family: 'Courier New', monospace;
+    cursor:pointer;
+}
+
+.bts-section {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:12px;
 }
 
 .album2 {
@@ -225,6 +230,22 @@ ul {
 
 .music-button:hover {
     background-color:#D6B8C1;
+}
+
+.facts-button {
+    color:antiquewhite;
+    background-color:#D6B8C1;
+    border-style:groove;
+    border-radius:60px;
+    border-color:#D6B8C1;
+    height:100px;
+    width:200px;
+    cursor:pointer;
+    font-size: 1.25rem;
+}
+
+.facts-button:hover {
+    background-color:#F5E6E8;
 }
 
 
@@ -375,6 +396,234 @@ h2 {
 }
 
 
-.h2-words{
+.h2{
+    color:#A25D72;
+}
+
+.member-heading {
     color:#F5E6E8;
+}
+
+.correct-heading {
+    color:#A25D72
+}
+
+
+/*Below is the code for the music page*/
+
+.swim {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.swim img {
+    width:200px;
+    height:auto;
+
+}
+
+.air {
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+
+.air img {
+    width:200px;
+    height:auto;
+}
+
+.world {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.world img {
+    width:200px;
+    height:auto;
+}
+
+.proof{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.proof img {
+    width:200px;
+    height:auto;
+}
+
+.best {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.best img {
+    width:200px;
+    height:auto;
+}
+
+.BE {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.BE img {
+    width:200px;
+    height:auto;
+}
+
+.soul {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.soul img{
+    width:200px;
+    height:auto;
+}
+
+.persona {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.persona img {
+    width: 200px;
+    height: auto;
+}
+
+.love {
+    display:flex;
+    align-items:center;
+    gap:20px;
+
+}
+
+.love img {
+    width:200px;
+    height:auto;
+}
+
+.tear {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.tear img {
+    width:200px;
+    height:auto;
+}
+
+.face {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.face img {
+    width:200px;
+    height:auto;
+}
+
+.her {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.her img{
+    width:200px;
+    height:auto;
+}
+
+.alone {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.alone img {
+    width:200px;
+    height:auto;
+}
+
+.wings {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.wings img {
+    width:200px;
+    height:auto;
+}
+
+.youth {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.youth img {
+    width:200px;
+    height:auto;
+}
+
+.young {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.young img {
+    width:200px;
+    height:auto;
+}
+
+.moment {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.moment img {
+    width:200px;
+    height:auto;
+}
+
+.answer {
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.answer img {
+    width:200px;
+    height:auto;
+}
+
+/*Random facts page code*/
+.pink-img {
+    width:300px;
+    height:auto;
+}
+
+.text-heading {
+    font-weight:200px;
+}
+
+.boing-section {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:12px;
 }
